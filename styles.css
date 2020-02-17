@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(./Monserrat/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(./open-sans/OpenSans-Regular.ttf);
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first-half, .second-half {
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffcc00;
+}
+
+.first-half p, .second-half p {
+  padding: 30px 0px;
+}
+
+.first-content {
+  margin: auto;
+  width: 70%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.under-construction {
+  font-family: montserrat;
+  font-weight: bolder;
+  font-size: 45pt;
+}
+
+.under-text {
+  font-family: opensans;
+  font-size: 16px;
+}
+
+.email-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.email {
+  width: 50%;
+  padding: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  background-color: white;
+  outline: none;
+  font-family: opensans;
+}
+
+.submit {
+  width: 25%;
+  padding: 15px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #4d4d4d;
+  color: #fff;
+  font-family: opensans;
+}
+
+.email-text {
+  color: rgba(0, 0, 0, 0.616);
+  font-family: opensans;
+  font-size: 10pt;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20%;
+}
+
+.stay-intouch {
+  padding: 0px;
+  font-family: opensans;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+  width: 20%;
+}
+
+.icon1, .icon2, .icon3 {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.icon1 {
+  background-image: url(./img/sicons_0000_Layer-2.png);
+}
+
+.icon2 {
+  background-image: url(./img/sicons_0001_Layer-3.png);
+}
+
+.icon3 {
+  background-image: url(./img/sicons_0002_Layer-1.png);
+}
+
+.second-half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.construction-img {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/img.jpg);
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: center;
+}
+/*# sourceMappingURL=styles.css.map */

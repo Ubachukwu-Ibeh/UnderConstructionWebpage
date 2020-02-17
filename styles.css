@@ -61,7 +61,7 @@ a {
 
 .under-text {
   font-family: opensans;
-  font-size: 16px;
+  font-size: 12pt;
 }
 
 .email-div {
@@ -108,7 +108,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .stay-intouch {
@@ -123,7 +123,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-left: 3%;
-  width: 20%;
+  width: 30%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .icon1, .icon2, .icon3 {
@@ -161,5 +164,56 @@ a {
   background-repeat: no-repeat;
   background-size: fill;
   background-position: center;
+}
+
+@media screen and (max-width: 1040px) {
+  .under-construction {
+    font-size: 40pt;
+  }
+  .under-text {
+    font-size: 11pt;
+  }
+  .submit {
+    font-size: 9pt;
+  }
+  .email-text {
+    font-size: 8pt;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .second-half {
+    display: none;
+  }
+  .first-half {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .first-content {
+    width: 90%;
+  }
+  .under-construction {
+    font-size: 30pt;
+  }
+  .under-text {
+    font-size: 8pt;
+  }
+  .submit {
+    font-size: 7pt;
+  }
+  .email-text {
+    font-size: 7pt;
+  }
+  .email {
+    font-size: 7pt;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .stay-intouch {
+    margin-left: 2%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
